@@ -391,7 +391,7 @@ GameObject:
   - component: {fileID: 719542041}
   - component: {fileID: 719542040}
   m_Layer: 0
-  m_Name: Bat_normal_left_0
+  m_Name: Ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -745,7 +745,7 @@ GameObject:
   - component: {fileID: 1297265865}
   - component: {fileID: 1297265864}
   m_Layer: 0
-  m_Name: spelunker_down_0
+  m_Name: PacStudent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -923,7 +923,7 @@ GameObject:
   - component: {fileID: 1876740547}
   - component: {fileID: 1876740546}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: title screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
