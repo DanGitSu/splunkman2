@@ -55,7 +55,7 @@ public class PacStudentController : MonoBehaviour
             lastInput = new Vector3(0.5f, 0, 0);
         }
 
-        if (transform.position == )
+        //if (transform.position == )
         if (!tweener.TweenExists(transform))
         {
             tweener.AddTween(transform, transform.position, transform.position + lastInput, duration);
