@@ -37,7 +37,7 @@ public class PacStudentController : MonoBehaviour
 
         if (!tweener.TweenExists(transform))
         {
-            tweener.AddTween(transform, transform.position, lastInput, duration);
+            tweener.AddTween(transform, transform.position, transform.position + lastInput, duration);
         }
 
     }
