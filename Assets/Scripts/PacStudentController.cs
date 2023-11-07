@@ -7,7 +7,7 @@ public class PacStudentController : MonoBehaviour
 {
     public Tweener tweener;
     private Vector3 lastInput;
-    private float duration = 1.5f;
+    private float duration = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -20,19 +20,19 @@ public class PacStudentController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W))
         {
-            lastInput = new Vector3(0,1,0);
+            lastInput = new Vector3(0,0.5f,0);
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
-            lastInput = new Vector3(-1, 0, 0);
+            lastInput = new Vector3(-0.5f, 0, 0);
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
-            lastInput = new Vector3(0, -1, 0);
+            lastInput = new Vector3(0, -0.5f, 0);
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
-            lastInput = new Vector3(1, 0, 0);
+            lastInput = new Vector3(0.5f, 0, 0);
         }
 
         if (!tweener.TweenExists(transform))
